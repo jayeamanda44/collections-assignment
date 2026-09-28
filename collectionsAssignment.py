@@ -7,8 +7,14 @@ grade2 = float(input("Enter a grade: \n"))
 grade3 = float(input("Enter a grade: \n"))
 grade4 = float(input("Enter a grade \n"))
 grade5 = float(input("Enter a grade \n"))
-avg = (grade1 + grade2 + grade3 + grade4 + grade5) / 5
+#avg = (grade1 + grade2 + grade3 + grade4 + grade5) / 5
 #print (avg)
+
+#creating a list
+allGrades = [grade1, grade2, grade3, grade4, grade5]
+
+#finding average of list
+avg = sum(allGrades) / len(allGrades)
 
 #finding letter grade
 if avg >= 90:
